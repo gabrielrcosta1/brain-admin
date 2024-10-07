@@ -9,7 +9,7 @@ class BrainAdminController extends Controller
 
     public function index(){
         $users = User::all();
-        return view('brainadmin::users', compact('users'));
+        return view('brainadmin.users', compact('users'));
     }
 
 }
