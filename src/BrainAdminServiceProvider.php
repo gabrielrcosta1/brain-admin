@@ -12,7 +12,7 @@ class BrainAdminServiceProvider extends ServiceProvider
 
     public function boot(): void
     {
-        $this->loadRoutesFrom(__DIR__.'/routes/brainAdmin.php');
+        $this->loadRoutesFrom(__DIR__.'/routes.php');
         $this->loadViewsFrom(__DIR__.'/views', 'brainadmin');
         $this->publishes([
             __DIR__.'/views' => base_path('resources/views/brainadmin'),
