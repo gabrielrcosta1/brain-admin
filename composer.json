@@ -1,0 +1,18 @@
+{
+    "name": "gabrielrcosta1/brain-admin",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "BrainAdmin\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "gabrielrcosta1",
+            "email": "contatogrsoftwares@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
